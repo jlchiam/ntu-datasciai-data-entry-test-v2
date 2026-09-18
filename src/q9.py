@@ -15,22 +15,27 @@ You have a local copy of a repo. You want to:
 
 Write the exact git command for each step (one per line).
 """
+I use point and click. I am not familiar and would like to learn more on this.
 
 # Step 1 — Create a new branch called `my-solutions`:
+git branch my-solutions
 
 # Step 2 — Switch to `my-solutions`:
+git switch my-solutions
 
 # Step 3 — Stage q4.md:
+git add src/q4.md
 
 # Step 4 — Commit with message "Add Q4 answers":
+git commit -m "Add Q4 answers"
 
 # Step 5 — Push `my-solutions` to the remote:
-
+git push -u origin my-solutions
 
 """
 Step 6 (short answer). You run `git status` and it says
 `Changes not staged for commit`. In one sentence, what does that tell you,
 and which command moves a file from there into the next commit?
 
-    Answer:
+    Answer: The file has changed but not yet commit. The git add <filename> command stages the file so that it will be included in the next commit.
 """
