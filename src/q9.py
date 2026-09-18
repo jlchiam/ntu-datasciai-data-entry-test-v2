@@ -25,6 +25,7 @@ git switch my-solutions
 
 # Step 3 — Stage q4.md:
 git add src/q4.md
+    or if I am in the src folder, git add q4.md
 
 # Step 4 — Commit with message "Add Q4 answers":
 git commit -m "Add Q4 answers"
